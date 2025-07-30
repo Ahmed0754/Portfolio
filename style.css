@@ -1,28 +1,19 @@
-/* General Styles */
+/* Base Light Mode */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  transition: background-color 0.3s, color 0.3s;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
 }
 
 header {
+  background: #005f73;
+  color: #fff;
+  padding: 2rem 1rem;
   text-align: center;
-  padding: 2rem;
-  background: linear-gradient(to right, #00b4db, #0083b0);
-  color: white;
   position: relative;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: 1.1rem;
-  margin-top: 0.5rem;
 }
 
 #darkModeToggle {
@@ -31,30 +22,23 @@ header p {
   right: 1rem;
   padding: 0.5rem 1rem;
   border: none;
-  background: white;
-  color: #0083b0;
+  background: #94d2bd;
+  color: #003845;
   border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
 }
 
 nav {
-  display: flex;
-  justify-content: center;
-  background-color: #333;
-  padding: 0.7rem;
+  background: #0a9396;
+  padding: 1rem;
+  text-align: center;
 }
 
 nav a {
   color: white;
+  margin: 0 1rem;
   text-decoration: none;
-  margin: 0 1.5rem;
   font-weight: bold;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #00b4db;
 }
 
 main {
@@ -63,70 +47,59 @@ main {
   margin: auto;
 }
 
-section {
-  margin-bottom: 3rem;
-}
-
 .project {
-  background-color: #ffffff;
-  padding: 1rem 1.5rem;
+  background: #e9ecef;
+  padding: 1rem;
   margin: 1rem 0;
-  border-left: 5px solid #00b4db;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.project h3 {
-  margin-top: 0;
+  transition: background 0.3s;
 }
 
 .project a {
-  color: #0083b0;
+  color: #005f73;
   text-decoration: none;
-  font-weight: bold;
 }
 
 footer {
+  background: #001219;
+  color: white;
   text-align: center;
   padding: 1rem;
-  background-color: #333;
-  color: white;
+  margin-top: 2rem;
 }
 
 /* Dark Mode */
-body.dark {
-  background-color: #121212;
-  color: #eee;
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
 }
 
-body.dark header {
-  background: linear-gradient(to right, #232526, #414345);
-  color: white;
+body.dark-mode header {
+  background: #1f1f1f;
+  color: #e0e0e0;
 }
 
-body.dark nav {
-  background-color: #1e1e1e;
-}
-
-body.dark nav a {
-  color: #ddd;
-}
-
-body.dark nav a:hover {
-  color: #00b4db;
-}
-
-body.dark .project {
-  background-color: #1f1f1f;
-  color: #eee;
-  border-left: 5px solid #00b4db;
-}
-
-body.dark footer {
-  background-color: #1e1e1e;
-}
-
-body.dark #darkModeToggle {
+body.dark-mode nav {
   background: #333;
-  color: white;
+}
+
+body.dark-mode nav a {
+  color: #fff;
+}
+
+body.dark-mode .project {
+  background: #1e1e1e;
+}
+
+body.dark-mode .project a {
+  color: #80cbc4;
+}
+
+body.dark-mode #darkModeToggle {
+  background: #333;
+  color: #fff;
+}
+
+body.dark-mode footer {
+  background: #000;
 }
