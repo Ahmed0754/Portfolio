@@ -10,6 +10,7 @@
   <header>
     <h1>Syed Ahmed Ali</h1>
     <p>Software Developer | Computer Science Student</p>
+    <button id="darkModeToggle">Toggle Dark Mode</button>
   </header>
 
   <nav>
@@ -65,5 +66,12 @@
   <footer>
     <p>&copy; 2025 Ahmed Ali</p>
   </footer>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
 </body>
 </html>
