@@ -2,60 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ahmed's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmed Ali - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-
-  <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
-
   <header>
-    <h1>Ahmed Ali</h1>
-    <p>Computer Science Student • Aspiring Software Developer</p>
+    <h1>Syed Ahmed Ali</h1>
+    <p>Software Developer | Computer Science Student</p>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I'm a third-year computer science student passionate about full-stack development, problem-solving, and building impactful software.
-    </p>
-  </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Time Series Forecasting App</strong> – Predicts stock trends using Java backend and VS Code</li>
-      <li><strong>Portfolio Website</strong> – This very site built with HTML, CSS, and JavaScript!</li>
-      <li><strong>Data Scraper</strong> – Automated CSV scraper for player statistics using Python</li>
-    </ul>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Ahmed, a computer science student passionate about building full-stack applications, scraping meaningful data, and exploring AI-based solutions. I love turning ideas into code and learning new technologies.</p>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Languages: Java, Python, JavaScript, SQL</li>
-      <li>Tools: VS Code, GitHub, Postgres, Spring Boot</li>
-      <li>Frontend: HTML, CSS, React (basic)</li>
-    </ul>
-  </section>
+    <section id="projects">
+      <h2>Projects</h2>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: ahmed@example.com</p>
-    <p>GitHub: <a href="https://github.com/ahmed0754" target="_blank">ahmed0754</a></p>
-  </section>
+      <div class="project">
+        <h3>Social Media Web App</h3>
+        <p>A full-featured social media application with user authentication and posting features.</p>
+        <a href="https://github.com/Ahmed0754/Social-Media_Web_App" target="_blank">GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Premier League Backend API</h3>
+        <p>RESTful backend service to manage player statistics and fantasy league data.</p>
+        <a href="https://github.com/Ahmed0754/Fantasy-Premier-League-Website" target="_blank">GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Data Scraping Tool</h3>
+        <p>Python scripts for scraping structured data from sports websites and converting it into CSV format.</p>
+        <a href="https://github.com/Ahmed0754/DataScraping" target="_blank">GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>AI Stock Market Predictor</h3>
+        <p>Machine learning model to predict stock trends using historical market data.</p>
+        <a href="https://github.com/Ahmed0754/AI-Stock-Market-Predictor" target="_blank">GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:syedahmedali.0520@gmail.com">syedahmedali.0520@gmail.com</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/syed-ahmed-ali-7270792b2" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Ahmed0754?tab=repositories" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Ahmed Ali</p>
+    <p>&copy; 2025 Ahmed Ali</p>
   </footer>
-
-  <script>
-    const toggleBtn = document.getElementById("darkModeToggle");
-    toggleBtn.addEventListener("click", () => {
-      document.body.classList.toggle("dark-mode");
-    });
-  </script>
 </body>
 </html>
