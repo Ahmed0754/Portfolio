@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases who I am, the proj
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the live site](https://Ahmed0754.github.io/) *(Update with actual URL after deployment)*
+🌐 [Click here to view the live site](https://ahmed0754.github.io/Portfolio/) *(Update with actual URL after deployment)*
 
 ---
 
