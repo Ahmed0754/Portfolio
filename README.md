@@ -1,4 +1,4 @@
-# 💼 Ahmed Ali - Portfolio Website
+# 💼 Syed Ahmed Ali - Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases who I am, the projects I've worked on, and how to contact me. It's a simple, responsive site built using just HTML and CSS — no frameworks, no libraries, just clean code.
 
@@ -56,5 +56,5 @@ This project is open-source and free to use. Feel free to fork, clone, or refere
 
 ---
 
-> Designed & coded with ❤️ by Ahmed Ali
+> Designed & coded by Syed Ahmed Ali
 
