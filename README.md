@@ -1,10 +1,10 @@
 # 💼 Syed Ahmed Ali - Portfolio Website
 
-Welcome to my personal portfolio website! This site showcases who I am, the projects I've worked on, and how to contact me. It's a simple, responsive site built using just HTML and CSS — no frameworks, no libraries, just clean code.
+Welcome t0 my personal portfolio website! This site showcases who I am, the projects I've worked on, and how to contact me. It's a simple, responsive site built using just HTML and CSS — no frameworks, no libraries, just clean code.
 
 ## 🚀 Live Demo
 
-🌐 [Click here to view the live site](https://ahmed0754.github.io/Portfolio/) *(Update with actual URL after deployment)*
+🌐 [Click here to view the live site](https://ahmed0754.github.io/Portfolio/) 
 
 ---
 
